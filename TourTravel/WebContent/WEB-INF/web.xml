@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>TourTravel</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>TourServlet</display-name>
+    <servlet-name>TourServlet</servlet-name>
+    <servlet-class>com.traininig.servlet.TourServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TourServlet</servlet-name>
+    <url-pattern>/TourServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TourServlet</servlet-name>
+    <url-pattern>/AddTour</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TourServlet</servlet-name>
+    <url-pattern>/UpdateTour</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TourServlet</servlet-name>
+    <url-pattern>/tourSandD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TourServlet</servlet-name>
+    <url-pattern>/ByTourName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TourServlet</servlet-name>
+    <url-pattern>/Filter1</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>TourServlet</servlet-name>
+    <url-pattern>/Filter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TourServlet</servlet-name>
+    <url-pattern>/Book</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>LoginAndRegister</display-name>
+    <servlet-name>LoginAndRegister</servlet-name>
+    <servlet-class>com.traininig.servlet.LoginAndRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginAndRegister</servlet-name>
+    <url-pattern>/LoginAndRegister</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>LoginAndRegister</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>LoginAndRegister</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>LoginAndRegister</servlet-name>
+    <url-pattern>/Registration</url-pattern>
+  </servlet-mapping>
+</web-app>
